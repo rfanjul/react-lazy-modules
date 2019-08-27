@@ -14,6 +14,6 @@ export default class OneComponent extends React.Component {
         | boolean
         | null
         | undefined {
-        return (<a onClick={this.handleOnClick}>OneComponent</a>);
+        return (<a onClick={this.handleOnClick} href="#">OneComponent</a>);
     }
 }

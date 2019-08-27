@@ -14,6 +14,6 @@ export default class TwoComponent extends React.Component {
         | boolean
         | null
         | undefined {
-        return (<a onClick={this.handleOnClick}>TwoComponent</a>);
+        return (<a onClick={this.handleOnClick} href="#">TwoComponent</a>);
     }
 }
